@@ -1,0 +1,16 @@
+//factorial of n
+#include<stdio.h>
+int main()
+{
+	int n,f;
+	printf("enter the factorial number:");
+	scanf("%d",&n);
+	f=1;
+	while(n>0)
+	{
+	 f=f*n;
+	 n=n-1;
+	}
+	printf("\nfactorial=%d",f);
+	return 0;
+}
